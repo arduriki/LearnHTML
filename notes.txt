@@ -1,0 +1,69 @@
+Video course:
+https://youtu.be/kUMe1FH4CHE?si=E4AiMDD7WNvmhuFb
+
+------------------------
+RESOURCES:
+Debug HTML file code:
+validator.w3.org -> File upload tab
+
+Entities list:
+https://html.spec.whatwg.org/multipage/named-characters.html#named-character-references
+
+Placeholder Image Generators:
+https://loremipsum.io/21-of-the-best-placeholder-image-generators/
+Sites with Freely-Usable Images:
+https://unsplash.com
+https://www.pexels.com
+https://gratisography.com
+https://pixabay.com
+
+Image Compression:
+https://tinypng.com
+
+HTML elements reference:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+
+-------------------------
+THEORY:
+Block text elements, create a new line. Like <p></p>
+##############
+Inline elements can be inside other elements, like <em></em>
+##############
+Ctrl+U in Chrome for see the whole content.
+###############
+Navigation bar:
+- In the address bar of the navigator, once we press on a nav link, it'll appear with a # and the section selected.
+- If it appears with just a #, it means that is back to the nav menu.
+##############
+Link naming:
+1. Avoid printing the full web address to the page.
+2. Avoid "links to" phrase. We all know it is a link.
+3. Keep your link text short. Exact topic. Not sentences.
+4. No links that say "click here". It provides no meaning.
+#############
+Avoid sensitive information like personal emails or phone numbers.
+##############
+Link HOME site with href="/"
+##############
+Important to add an alt description in the images: if the image doesn't appear, the text will appear.
+##############
+"Below the fold" -> when there's content below what we can see and we need to scroll.
+That's why is better to include in <img> elements: loading="lazy". It helps for the site performance.
+###########
+Good page layout:
+· h1-h3
+· navigation bar
+· add section elements -> "article" is better:
+    section is generic, article has a clear topic.
+· header section & nav section
+· body section & sections
+· footer section
+Try to avoid until you really understand why are needed:
+· div -> divider elements
+· span
+Stick to semantic HTML rather than tables
+###########
+Tables don't take the whole width of the page.
+###########
+Forms: the input and the label elements should match the for and the id of both.
